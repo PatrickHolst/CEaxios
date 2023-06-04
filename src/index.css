@@ -1,0 +1,136 @@
+body {
+  background: linear-gradient(to right, #c5adc5, #b2b5e0);
+  font-family: "MuseoSans";
+  letter-spacing: 1px;
+  padding: 10px;
+  min-height: 100vh;
+}
+
+@font-face {
+  font-family: "MuseoSans";
+  src: local("MuseoSans"), url(./fonts/MuseoSansCyrl-500.woff);
+}
+.museo {
+  font-family: museo;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.main-content {
+  width: 80%;
+  margin: auto auto 100px auto;
+}
+
+.main {
+  margin-left: 10px;
+}
+
+.forms {
+  margin-top: 30px;
+}
+
+.split-container {
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  padding: 0px 60px;
+  border-radius: 10px;
+  gap: 1rem;
+  background-color: #e9e2e9;
+  margin-top: 30px;
+}
+
+.flex-col {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.35rem;
+  width: 100%;
+}
+
+.form {
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.parent-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent-card {
+  margin: 10px;
+
+  width: 288px;
+  overflow: hidden;
+}
+
+.main-form {
+  color: #222222;
+  font-size: 18px;
+  width: 70%;
+  margin: auto;
+}
+
+.input-control {
+  margin-top: 10px;
+  margin: auto;
+  border: 1px solid #ccc;
+  color: #555555;
+  background-color: #fff;
+}
+
+button {
+  /* margin-right: 5px; */
+  margin-bottom: 20px;
+}
+
+.submit-btn {
+  margin-top: 1rem;
+}
+
+.login {
+  text-align: center;
+  padding: 10px;
+  height: 200px;
+  line-height: 200px;
+
+  /* button {
+    font-size: 20px;
+  } */
+}
+
+.errorMsg {
+  color: #f21e08;
+  background: #fff0f0;
+  padding: 10px;
+}
+
+.successMsg {
+  color: #00ff00;
+  background: #077707;
+  padding: 10px;
+}
+
+.centered-message {
+  width: 500px;
+  margin: auto;
+}
+
+.message {
+  color: #0e1b1e;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .main-form {
+    width: 100%;
+  }
+}
